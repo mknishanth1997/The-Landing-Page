@@ -21,6 +21,10 @@ li {
     font-size: 18px;
     color: #000002;
 }
+li:hover {
+    font-size: 24px;
+    color: blue;
+}
 .bbicon {
     height: 100px;
 }
@@ -52,6 +56,10 @@ li {
     font-weight: bold;
     padding: 16px 32px;
     border-radius: 8px;
+}
+.signup-1:hover {
+    padding: 16px 64px;
+    font-size: 20px;
 }
 span {
     color: black;
@@ -87,6 +95,10 @@ span {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+}
+.info:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 .text {
     font-size: 18px;
@@ -159,6 +171,9 @@ span {
     border-radius: 16px;
     color: black;
     font-weight: bolder;
+}
+.signup-2:hover {
+    border: 7px solid white;
 }
 .footer {
     background: linear-gradient(to right, #000002 50%, #FFD504 50%); 
